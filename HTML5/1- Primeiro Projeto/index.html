@@ -6,35 +6,60 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Tabelas</h1>
+    <h1>Entrar</h1>
         
-    <table border="2" width="200" >
-        
-        <tr>
-            <th>Assunto</th>
-            <th>Data</th>
-            <th>Hora</th>
-        </tr>
-        
-        <tr>
-            <td>HTML</td>
-            <td></td>
-            <td></td>
-        </tr>
+   <form action="cadastro.php" >
 
-        <tr>
-            <td>CSS</td>
-            <td rowspan="2"></td>
-            <td></td>
-        </tr>
+    
+    Nome: <br><input type="text" name="nome" id="" value="" > <br>
 
-        <tr>
-            <td >JavaScript</td>
-            
-            <td></td>
-        </tr>
-    </table>
+    Senha: <br><input type="password" name="senha" id=""> <br>
 
+    Data de nascimento <br><input type="date" name="" id=""> <br>
+
+    Enviar: <br> <input type="submit" value="Enviar"> 
+
+   </form>
+   <hr>
+
+   <form action="">
+
+    Nome: <br> <input type="text" name="nome" id=""> <br>
+
+    E-mail: <br>
+    <input type="email" name="" id=""> <br>
+
+    Data de Nascimento: <br>
+    <input type="date" name="" id=""> <br>
+
+    Interesses: <br>
+    <input type="checkbox" name="interesse" value="Tecnologia" id=""> Tecnologia <br>
+    <input type="checkbox" name="interesse" value="Arte" id=""> Arte <br>
+    <input type="checkbox" name="interesse" value="Ciencia" id=""> Ciencia <br>
+    <input type="checkbox" name="interesse" value="História" id=""> História <br> <br>
+
+    Sexo: <br>
+    <input type="radio" name="Sexo" id="" value="M"> Masculino <br>
+    <input type="radio" name="Sexo" id="" value="F"> Feminino <br>
+
+    Estado:
+    <select name="Estado" id="" value>
+        <option value="PA">Pará</option>
+        <option value="SP">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RN">Rio Grande do norte</option>
+        <option value="SC">Santa Catarina</option>
+    </select> <br>
+
+    Informações adicionais: <br>
+    <textarea name="" id=""></textarea> <br>
+
+    <input type="submit" value="Submeter">
+
+
+
+
+   </form>
    
 
 </body>
