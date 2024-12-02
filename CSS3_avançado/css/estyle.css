@@ -1,0 +1,75 @@
+/*SELETOR UNIVERSAL
+    *{}
+
+    Aplica-se em todos os
+elementos no documento
+*/
+
+
+/*SELETOR DE TEXTO
+    tag{}
+
+    Seleciona elementos pelo
+tipo
+
+*/
+
+
+
+/*SELETOR DE CLASSE
+    .class{}
+    tag.class{}
+
+    Seleciona um elemento cujo
+atributo class tem o valor
+especificado depois do
+ponto
+*/
+
+
+/*SELETOR DE ID
+    #id{}
+
+    Seleciona um elemento cujo
+atributo id tem o valor
+especificado após o símbolo
+de cerquilha ou jogo da
+velha
+
+*/
+/*SELETOR DE FILHO
+    tag > tag{}
+    tag > class{}
+    class > tag{}
+
+    Seleciona um elemento que
+é filho direto de outro
+
+*/
+/*SELETOR DE DESCENDENTE
+    tag tag{}
+    class class{}
+
+    Seleciona um elemento que
+é descendente de outro
+elemento especificado (e
+não apenas filho direto
+desse elemento)
+*/
+
+/*SELETOR DE ADJACENTE
+    tag + tag{}
+    class +class{}
+
+    Seleciona um elemento que
+é o irmão próximo de outro
+*/
+/*SELETOR DE DE IRMÃO GERAL
+    tag~tag{}
+
+    Seleciona um elemento que
+é um irmão de outro,
+embora ele não precise ser o
+elemento diretamente
+precedente
+*/
