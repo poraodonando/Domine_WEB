@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Road";
+    src: url(Fontes/RoadRage.woff);
+}
+
+@font-face {
+    font-family: "Sci-fi";
+    src: url(Fontes/ArcadeClassic.woff);
+}
+
+@font-face {
+    font-family: "angel";
+    src: url(Fontes/Angelwish-Regular.woff);
+}
+
+li{
+    font-family: "Road";
+}
