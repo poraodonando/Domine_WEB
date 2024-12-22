@@ -1,0 +1,19 @@
+nav ul{
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+
+article{
+    background: orangered;
+
+}
+section{
+    border: 1px dotted #ffa;
+    padding: 10px ;
+    margin: 10px;
+}
+
+aside{
+    background: #0004ff;
+    color: #ccc;
+}
