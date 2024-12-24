@@ -15,12 +15,12 @@ if(4 !== "4"){
 
 // Verificador de média
 
-var nota1 = prompt("Digite 1º Nota");
-var nota2 = prompt("Digite 2º Nota");
-var nota3 = prompt("Digite 3º Nota");
+var nota1 = parseInt( prompt("Digite 1º Nota"));
+var nota2 = parseInt( prompt("Digite 2º Nota"));
+var nota3 = parseInt( prompt("Digite 3º Nota"));
 
 var media = (nota1 + nota2 + nota3)/3;
-document.write(media);
+
 
 
 if(media >= "6"){
