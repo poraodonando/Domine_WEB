@@ -1,0 +1,27 @@
+#vermelho{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: red;
+}
+
+#verde{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: green;
+}
+
+#azul{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: blue;
+}
+
+#bloco{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid black;
+}
