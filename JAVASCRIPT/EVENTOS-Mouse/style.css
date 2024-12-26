@@ -1,0 +1,28 @@
+#onclick{
+    background: rgb(19, 157, 161); 
+    width: 300px; height: 300px;
+}
+
+#onbclick{
+    background: #e5f;
+    width: 300px;
+    height: 300px;
+
+}
+
+#on_mouseup{
+    background: #bcd;
+    width: 300px;
+    height: 300px;
+}
+#on_mouseover{
+    background: #ce3838;
+    width: 300px;
+    height: 300px;
+}
+
+#on_mouseout{
+    background: #0f0;
+    width: 300px;
+    height: 300px;
+}
