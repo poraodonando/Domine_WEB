@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="">Foco</label>
+        <input type="text" onfocus="on_focus()" onblur="on_blur()">
+    </form>
+
+    <select name="" id="" onchange="on_change()">
+        <option value="1">Primeira opcao</option>
+        <option value="2">Segunda opçao</option>
+        <option value="3">Terceira opcao</option>
+    </select>
+    
+</body>
+</html>
+
+<script>
+
+    function on_focus(){
+        console.log("Funcionando");
+    }
+
+    function on_blur(){
+        console.log("Perdeu o foco")
+    }
+
+    function on_change(){
+        console.log("estado foi modificado")
+    }
+    
+</script>
