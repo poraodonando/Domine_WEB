@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+
+var numeros = ['um','dois','tres','quatro','cinco','seis']
+
+var ordem = numeros.sort()
+
+console.log(ordem)
+
+
+var numbers = [12,14,23,44,56,36,93,100]
+var ordem_num = numbers.sort(ordena_numeros)
+
+function ordena_numeros(x,y){
+    return x-y
+    //< 0 = x odenado antes de y
+    //> 0 = y odenado antes de x
+}
+
+console.log(ordem_num)
+
+</script>
