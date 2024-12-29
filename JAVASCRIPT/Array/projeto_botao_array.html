@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <form >
+        <input type="text" name="" id="texto">
+        <button type="button" onclick="adicionar()" >Adicionar</button>
+        <button type="button" onclick="retirar()">Retirar</button>
+        <button type="button">Ordenar</button>
+
+        <hr>
+        <textarea name="" id="area_texto" ></textarea>
+
+    </form>
+
+
+
+    
+</body>
+</html>
+
+<script>
+
+    function adicionar(){
+        var texto_adicionado = []
+        texto_adicionado[0] = document.getElementById('texto').value;
+        
+        document.getElementById('area_texto').value += texto_adicionado + "</br>";
+        
+        
+        
+    }
+
+
+    function retirar(){
+
+        var texto_retirado = document.getElementById('texto').value;
+        
+    }
+
+
+
+
+</script>
