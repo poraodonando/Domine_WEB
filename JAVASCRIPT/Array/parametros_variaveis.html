@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+    function soma() {
+       
+        var resultado = 0;
+
+        for(var i in arguments)
+        resultado += arguments[i];
+        
+        return resultado;
+    }
+
+    document.write('Resultado: '+ soma(4,69,-50,'texto',3.4))
+
+</script>
