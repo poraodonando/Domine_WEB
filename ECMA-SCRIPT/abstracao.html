@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+//Modelo da entidade / objeto
+class Conta_Bancaria{
+    agencia
+    //numero_Conta
+    //saldo
+    //limite
+
+    constructor(){
+        this.agencia = 666
+        this.numero_Conta = 333
+        this.saldo = 1654
+        this.limite = 10000
+
+    }
+
+    depositar(valor_deposito){
+        this.saldo += valor_deposito;
+    }
+
+    sacar(valor_saque){
+        this.saldo -= valor_saque
+    }
+
+    consultar_Saldo(){
+        return this.saldo
+    }
+
+}
+
+
+let conta_banco_001 = new Conta_Bancaria();
+
+console.log(conta_banco_001)
+
+
+
+console.log(conta_banco_001.depositar(35000))
+
+</script>
