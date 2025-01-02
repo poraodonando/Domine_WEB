@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+    let calc_quadrado = function(x =5){
+        return x*x
+    }
+
+        //Arrow Function
+    let calc_quadrado_arrow = (x = 5) =>{
+        return x*x
+    }
+    //OUtra forma
+
+    let calc_quadrado_arrow_1 = x =>{
+        return x*x
+    }
+    
+    //OUtra forma
+    let calc_quadrado_arrow_2 = x => x*x;
+
+    //OUtra função mais complexa
+
+    let par_impar = function(num){
+        if(num%2 === 0){
+            return 'par'
+        }else{
+            return 'impar'
+        }
+    }
+
+    // Em forma de Arrow function
+
+    let par_impar_1 = num => num%2 == 0 ?'par':'impar'
+
+    document.write(calc_quadrado_arrow(6)+'<br/>')
+    document.write(par_impar(5)+'<br/>');
+    document.write(par_impar_1(6));
+
+
+
+</script>
