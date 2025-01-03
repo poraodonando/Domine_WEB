@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script> 
+
+class tv{
+    constructor(){
+        this._lista_canais = [2,4,5,7,10]
+        this._canal_atual = 5
+        this._volume = 5
+        
+        // Convenciona-se que o underline  indica 
+        // que o programador nao deve acessar o 
+        // atributo de forma direta. 
+        //Para acessar ele deve usar os métodos get e set
+
+    }
+
+    get canal_atual(){
+        return this._canal_atual
+    }
+
+    set canal_atual(canal){
+        let x = this._lista_canais.indexOf(canal)
+        console.log(x)
+        this.canal_atual = _canal
+    }
+
+}
+
+
+
+let tv_1 = new tv
+tv_1._canal_atual = 3
+
+console.log(tv_1)
+
+
+
+
+
+</script>
