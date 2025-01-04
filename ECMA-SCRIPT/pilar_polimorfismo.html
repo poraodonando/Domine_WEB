@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    /*CLASSE ANIMAL*/
+
+
+    class Animal {
+        constructor(cor, tamanho, peso){
+            this.cor = cor;
+            this.tamanho = tamanho;
+            this.peso = peso;
+        }
+
+        dormir(){
+            console.log('Dormindo...');
+
+        }
+
+    }
+
+
+    /*CLASSE PASSARO*/
+
+
+    class Passaro extends Animal{
+        
+        constructor(bico,cor,tamanho,peso){
+            super(cor,tamanho,peso)
+            this.bico = bico;
+        }
+
+        voar(){
+            console.log('VOando');
+        }
+
+    }
+
+    /*CLASSE PAPAGAIO*/
+
+    class Papagaio extends Passaro{
+
+        constructor(sabe_falar, cor, tamanho, peso){
+            super('medio',cor,tamanho,peso);
+            this.sabe_falar = sabe_falar;
+        }
+
+        falar(){
+            console.log('Ola!')
+        }
+    }
+
+    /*CLASSE AVESTRUZ*/
+    
+    class Avestruz extends Passaro{
+        constructor(){
+            super('grande','preto e branco',250,35000)
+
+        }
+        
+        enterrar_cabeca(){
+            console.log('Enterrando a Cabeça')
+        }      
+        
+        voar(){
+            console.log('Nao sabe voar')
+        }
+    }
+
+
+    let papagaio_1 = new Papagaio(true,'azul', 100, 50);
+    console.log(papagaio_1)
+    
+    let avestruz_1 = new Avestruz();
+    avestruz_1.enterrar_cabeca()
+    avestruz_1.voar()
+
+    
+
+
+    
+
+
+
+</script>
