@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+    /* NOTAÇÃO DE CLASSE ES6*/
+    class Produto{
+
+        constructor(descricao,preco){
+            this.descricao = descricao;
+            this.preco = preco;
+        }
+
+        ver_descricao(){
+            console.log(`${this.descricao} por apenas ${this.preco}`)
+        }
+
+    }
+
+    let prod_1 = new Produto('Notebook', 1200)
+    prod_1.ver_descricao();
+
+
+    /* NOTAÇÃO DE OBJETO LITERAL*/
+
+    let prod_literal = {
+        descricao: 'Geladeira',
+        Valor: 2300,
+        ver_descricao: function(){
+            console.log(`${this.descricao} por apenas ${this.Valor}`)
+        }   
+    }
+
+    prod_literal.ver_descricao()
+    
+    //---------------
+    /*formulario -> servidor
+        recupera dados e monta um objeto prod_literalobj literal -> JSON -> HTTP -> server -> Amarzena
+
+    */
+
+
+
+
+</script>
