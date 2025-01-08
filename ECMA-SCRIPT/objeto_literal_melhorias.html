@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+        let nome = 'Nando'
+        let idade = 35
+        let sexo = 'M'
+        let profissao = 'professor'
+
+
+
+    /*     NOTAÇÃO ES5     */
+
+    let pessoa_es5 = {
+        nome:nome,
+        idade: idade,
+        sexo: sexo,
+        profissao: profissao,
+        exibir_resumo: function(){
+            console.log(`Ola me chamo ${nome}, tenho ${idade} anos do sexo ${sexo } e trabalho como ${profissao}`)
+        }
+    }
+
+        /*     NOTAÇÃO ES6     */
+
+        let pessoa_es6 = {
+            nome,
+            idade,
+            sexo,
+            profissao,
+            exibir_resumo(){}
+        }
+
+</script>
